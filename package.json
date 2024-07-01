@@ -1,6 +1,6 @@
 {
   "name": "auto-marquee",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "displays text for a short time, and auto uses marquee for a long time",
   "author": "MOONCOM",
   "homepage": "https://github.com/MOONCOM/AutoMarquee",

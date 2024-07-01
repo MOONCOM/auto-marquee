@@ -48,7 +48,8 @@
 .wrapper{
   position: relative;
   width: 100%;
-  height:1.2em;
+  height: 100%;
+  min-height: 1.2em;
 }
 .marquee-detail{
   position:absolute;
