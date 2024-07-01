@@ -1,4 +1,4 @@
-(function(){"use strict";try{if(typeof document<"u"){var e=document.createElement("style");e.appendChild(document.createTextNode(".wrapper[data-v-b36df89a]{position:relative;width:100%;height:1.2em}.marquee-detail[data-v-b36df89a]{position:absolute;top:50%;width:100%;height:1.2em;line-height:1.2em;transform:translateY(-50%);overflow:hidden;background-color:var(--78da8312)}.original-text[data-v-b36df89a]{max-height:2.4em}.marquee-text[data-v-b36df89a]{position:relative;top:-2.4em;white-space:nowrap;background-color:inherit}.marquee-text[data-v-b36df89a]:after{content:attr(data-marquee-text);padding:0 5em}@keyframes move-b36df89a{to{transform:translate3d(-50%,0,0)}}.marquee-text.auto-type[data-v-b36df89a]{display:inline-block;animation:move-b36df89a var(--55cf0309) .3s linear infinite}.marquee-text.hover-type[data-v-b36df89a]{display:block;overflow:hidden;text-overflow:ellipsis}.marquee-text.hover-type[data-v-b36df89a]:hover{display:inline-block;animation:move-b36df89a var(--55cf0309) .3s linear infinite}")),document.head.appendChild(e)}}catch(a){console.error("vite-plugin-css-injected-by-js",a)}})();
+(function(){"use strict";try{if(typeof document<"u"){var e=document.createElement("style");e.appendChild(document.createTextNode(".wrapper[data-v-5577637d]{position:relative;width:100%;height:100%;min-height:1.2em}.marquee-detail[data-v-5577637d]{position:absolute;top:50%;width:100%;height:1.2em;line-height:1.2em;transform:translateY(-50%);overflow:hidden;background-color:var(--159230fa)}.original-text[data-v-5577637d]{max-height:2.4em}.marquee-text[data-v-5577637d]{position:relative;top:-2.4em;white-space:nowrap;background-color:inherit}.marquee-text[data-v-5577637d]:after{content:attr(data-marquee-text);padding:0 5em}@keyframes move-5577637d{to{transform:translate3d(-50%,0,0)}}.marquee-text.auto-type[data-v-5577637d]{display:inline-block;animation:move-5577637d var(--68dc720c) .3s linear infinite}.marquee-text.hover-type[data-v-5577637d]{display:block;overflow:hidden;text-overflow:ellipsis}.marquee-text.hover-type[data-v-5577637d]:hover{display:inline-block;animation:move-5577637d var(--68dc720c) .3s linear infinite}")),document.head.appendChild(e)}}catch(t){console.error("vite-plugin-css-injected-by-js",t)}})();
 import { useCssVars as n, computed as u, openBlock as l, createElementBlock as i, createElementVNode as r, toDisplayString as c, normalizeClass as p } from "vue";
 const d = (e, t) => {
   const a = e.__vccOpts || e;
@@ -37,8 +37,8 @@ const d = (e, t) => {
   },
   setup(e) {
     n((o) => ({
-      "78da8312": t.bg,
-      "55cf0309": a.value
+      "159230fa": t.bg,
+      "68dc720c": a.value
     }));
     const t = e, a = u(() => `${t.time.toString().split("s")[0]}s`), s = u(() => t.type === "auto" ? "auto-type" : "hover-type");
     return (o, y) => (l(), i("div", _, [
@@ -51,7 +51,7 @@ const d = (e, t) => {
       ])
     ]));
   }
-}), h = /* @__PURE__ */ d(g, [["__scopeId", "data-v-b36df89a"]]);
+}), h = /* @__PURE__ */ d(g, [["__scopeId", "data-v-5577637d"]]);
 export {
   h as default
 };
