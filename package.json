@@ -1,6 +1,6 @@
 {
   "name": "auto-marquee",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "displays text for a short time, and auto uses marquee for a long time",
   "author": "MOONCOM",
   "homepage": "https://github.com/MOONCOM/AutoMarquee",
@@ -17,6 +17,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build-demo": "vite build --config build-demo.config.js",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -25,8 +26,7 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
     "vite": "^5.3.1",
-    "vite-plugin-css-injected-by-js": "^3.5.1",
-    "vite-plugin-dts": "^3.9.1"
+    "vite-plugin-css-injected-by-js": "^3.5.1"
   },
   "keywords": [
     "marquee",

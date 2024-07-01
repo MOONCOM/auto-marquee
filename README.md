@@ -16,7 +16,7 @@ npm i auto-marquee
 | bg  | String        | #fff | 背景色，如果项目有主题切换功能，需要考虑为 bg 动态赋值                           |
 
 ## 示例
-点击查看 [线上演示](https://mooncom.github.io/the-file-preview/demo/).
+点击查看 [线上演示](https://mooncom.github.io/AutoMarquee/demo).
 
 ## 项目地址
 - [github](https://github.com/MOONCOM/AutoMarquee)
