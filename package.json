@@ -1,13 +1,13 @@
 {
   "name": "auto-marquee",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "displays text for a short time, and auto uses marquee for a long time",
   "author": "MOONCOM",
   "homepage": "https://github.com/MOONCOM/AutoMarquee",
   "type": "module",
   "main": "./dist/auto-marquee.umd.cjs",
   "module": "./dist/auto-marquee.js",
-  "typings": "./dist/index.d.ts",
+  "typings": "./index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/auto-marquee.js",
